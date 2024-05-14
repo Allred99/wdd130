@@ -4,6 +4,10 @@ p {
 a {
     font-size: 1.5em;
 }
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
 h1 {
     text-align: center;
 }
@@ -17,4 +21,8 @@ main p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
 }
