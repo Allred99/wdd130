@@ -1,6 +1,3 @@
-img {
-    width: 30%;
-}
 p {
     width: 80%;
 }
@@ -12,6 +9,9 @@ h1 {
 }
 nav, footer {
     text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
 }
 main p {
     width: 80%;
