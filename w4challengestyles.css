@@ -1,5 +1,11 @@
-h1, p, li {
+body {
+    background-color: steelblue;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-weight: bold;
+    color: white
 }
 h1:hover {
     color: black;
@@ -7,11 +13,10 @@ h1:hover {
 li {
     color: black;
 }
-body {
-   text-align: center;
-}
 #image_container img {
-    max-width: 25%;
-    max-height: auto;
+    max-width: 100px;
     display: block;
+}
+footer {
+    background-color: steelblue;
 }
