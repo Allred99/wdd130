@@ -2,16 +2,16 @@ h1, p, li {
     text-align: center;
 }
 h1:hover {
-    color: black
+    color: black;
 }
 li {
     color: black;
 }
-body, footer {
-    background-color: steelblue;
-    text-align: center;
+body {
+   text-align: center;
 }
 #image_container img {
-    width: 25%;
+    max-width: 25%;
+    max-height: auto;
     display: block;
 }
