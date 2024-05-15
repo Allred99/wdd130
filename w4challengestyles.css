@@ -10,13 +10,28 @@ h1 {
 h1:hover {
     color: black;
 }
+#quote_1, #reference_1 {
+    text-align: center;
+    color: white
+}
+#reference_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
     color: black;
 }
 #image_container img {
-    max-width: 100px;
+    max-width: 175px;
     display: block;
+    align-items: center;
 }
 footer {
     background-color: steelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
 }
