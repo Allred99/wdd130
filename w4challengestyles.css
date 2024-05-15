@@ -5,14 +5,14 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: bolder;
-    color: white
+    color: white;
 }
 h1:hover {
     color: black;
 }
 #quote_1, #reference_1 {
     text-align: center;
-    color: white
+    color: white;
 }
 #reference_1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -28,12 +28,16 @@ h1:hover {
 #image_container img {
     max-width: 175px;
     display: block;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #quote_2 {
     text-align: center;
     font-weight: bold;
-    color: white
+    font-size: 30px;
+    color: white;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 footer {
     background-color: steelblue;
