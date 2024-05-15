@@ -1,0 +1,12 @@
+h1, p, li {
+    text-align: center;
+}
+li {
+    color: black
+}
+body {
+    background-color: steelblue;
+}
+img {
+    width: 25%
+}
