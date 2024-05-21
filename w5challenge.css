@@ -6,11 +6,12 @@
     background-color: grey;
     width: 100%;
     length: auto;
-    align-items: center;
+   text-align: center;
 }
 #Desk, #Graphic, #Person {
     border-radius: 50%;
     border: 15px solid;
     border-color:#414141;
     max-width: 300px;
+    display: inline-block;
 }
