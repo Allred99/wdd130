@@ -6,10 +6,12 @@
     background-color: grey;
     width: 100%;
     length: auto;
+    align-items: center;
 }
 #Desk, #Graphic, #Person {
     border-radius: 50%;
-    border: 5px solid;
+    border: 15px solid;
     border-color:#414141;
     max-width: 300px;
+    padding: 100px;
 }
