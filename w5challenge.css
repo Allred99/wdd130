@@ -3,5 +3,7 @@
 }
 #Desk, #Graphic, #Person {
     border-radius: 50%;
-    border-color: #414141;
+    border: 5px solid;
+    border-color:#414141;
+    max-width: 300px;
 }
