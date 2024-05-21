@@ -1,5 +1,11 @@
+#Circles {
+    width: 100%;
+    length: auto;
+}
 #image_container {
     background-color: grey;
+    width: 100%;
+    length: auto;
 }
 #Desk, #Graphic, #Person {
     border-radius: 50%;
