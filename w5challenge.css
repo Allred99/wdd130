@@ -1,12 +1,14 @@
 #Circles {
     width: 100%;
     length: auto;
+    margin: 0px;
 }
 #image_container {
     background-color: grey;
     width: 100%;
     length: auto;
-   text-align: center;
+    text-align: center;
+    margin: 0px;
 }
 #Desk, #Graphic, #Person {
     border-radius: 50%;
