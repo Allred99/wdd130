@@ -1,5 +1,7 @@
 #image_container {
     background-color: grey;
+}
+#Desk, #Graphic, #Person {
     border-radius: 50%;
     border-color: #414141;
 }
