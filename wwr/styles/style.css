@@ -35,6 +35,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #B5A292;
@@ -49,6 +50,7 @@ nav a:hover {
     color: #396E94;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 30px;
 }
 .book:hover, .join:hover {
     background-color: white;
@@ -78,6 +80,7 @@ header {
 }
 .msg {
     line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     background-color: #B5A292;
@@ -87,10 +90,12 @@ header {
     background-color: #B5A292;
     color: #396E94;
     font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #B5A292;
     color: white;
+    padding: 25px 50px;
 }
 footer a {
     background-color: #B5A292;
@@ -115,4 +120,8 @@ p {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.social img {
+    padding-top: 15px;
 }
