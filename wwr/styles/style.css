@@ -16,6 +16,9 @@
     font-weight: 400;
     font-style: normal;
   }
+body {
+    font-size: 22px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -34,11 +37,13 @@ nav a:hover {
 }
 .home-title {
     color: white;
+    font-size: 2em;
 }
 .book, .join {
     background-color: #B5A292;
     color: #396E94;
     text-decoration: none;
+    font-size: 18px;
 }
 .book:hover, .join:hover {
     background-color: white;
@@ -73,6 +78,7 @@ header {
 .msg p {
     background-color: #B5A292;
     color: #396E94;
+    font-size: .8em;
 }
 footer {
     background-color: #B5A292;
