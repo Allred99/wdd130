@@ -5,7 +5,7 @@ body {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr, 1fr;
-    grid-gap: 0px;
+    grid-gap: 1px;
 }
 img {
     grid-column: 1/2;
