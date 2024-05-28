@@ -1,15 +1,12 @@
-body {
-    background-color: gray;
-}
-#grid_container {
+.grid_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-img {
+#grid-item-1 {
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 2;   
 }
-h1 {
+#grid-item-2 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: black;
@@ -18,7 +15,7 @@ h1 {
     grid-column-end: 3;
     z-index: 1;
 }
-h2 {
+#grid-item-3 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: darkred;
