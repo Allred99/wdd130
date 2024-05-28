@@ -15,9 +15,10 @@ img {
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 40px;
     color: black;
     align-self: center;
+    text-align: center;
     grid-column: 1/3;
     grid-row: 1/2;
     z-index: 1;
@@ -27,6 +28,7 @@ h1 {
     font-weight: bold;
     color: darkred;
     align-self: bottom;
+    text-align: center;
     background-color: gray;
     grid-column: 2/3;
     grid-row: 1/2;
