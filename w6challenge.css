@@ -1,8 +1,11 @@
+body {
+    background-color: gray;
+}
 #grid_container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-#cherry_container {
+img {
     grid-column-start: 1;
     grid-column-end: 2;
 }
@@ -14,11 +17,6 @@ h1 {
     grid-column-start: 1;
     grid-column-end: 3;
     z-index: 1;
-}
-#gray_container {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    background-color: gray;
 }
 h2 {
     font-family: 'Times New Roman', Times, serif;
