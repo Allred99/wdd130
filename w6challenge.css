@@ -1,0 +1,29 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#cherry_container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    z-index: 1;
+}
+#gray_container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: gray;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: darkred;
+    text-align: center;
+    vertical-align: bottom;
+}
