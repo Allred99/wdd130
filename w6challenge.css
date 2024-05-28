@@ -1,37 +1,28 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-}
 .home-grid {
     display: grid;
     grid-template-columns: 1fr, 1fr;
-    grid-gap: 0px;
 }
 img {
+    background-color: white;
     grid-column: 1/2;
     grid-row: 1/2;
-    background-color: white;
 }
 h1 {
+    color: black;
+    font-size: 120px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 120px;
-    color: black;
     align-self: center;
-    text-align: center;
     grid-column: 1/3;
     grid-row: 1/2;
-    z-index: 1;
 }
 .gray-container {
+    background-color: rgb(182, 182, 182);
+    color: rgb(153, 17, 17);
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: darkred;
-    align-self: bottom;
     text-align: center;
-    font-size: 40px;
-    background-color: gray;
     grid-column: 2/3;
     grid-row: 1/2;
 }
