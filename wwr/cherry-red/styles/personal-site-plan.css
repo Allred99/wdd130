@@ -9,7 +9,7 @@ Fonts are separated by a | */
   --primary-color: #a71a1a;
   --secondary-color: #d1cbab;
   --accent1-color: #1f2232;
-  --accent2-color: #4c6b92;
+  --accent2-color: #526e8f;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Berkshire Swash", sans-serif;
@@ -20,10 +20,10 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #1f2232; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #1f2232; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94;
-  --nav-link-color: #4c6b92;
+  --paragraph-background-color: #526e8f;
+  --nav-link-color: #526e8f;
   --nav-background-color: #d1cbab;
-  --nav-hover-link-color: #4c6b92;
+  --nav-hover-link-color: #526e8f;
   --nav-hover-background-color: white;
 }
 
