@@ -50,8 +50,11 @@ body {
 .welcome-paragraph {
     grid-column: 1/3;
 }
-.cherry-dice {
+img {
     grid-column: 3/4;
+    border: 10px solid #1f2232;
+    transition: .5s;
+    box-shadow: 5px 5px 10px #433d36;
 }
 h1 {
     font-family: 'Berkshire Swash', sans-serif;
