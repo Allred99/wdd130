@@ -57,12 +57,12 @@ body {
     color: #6e8cad;
     text-decoration: underline;
 }
-.welcome-paragraph {
+.body_paragraph {
     grid-column: 2/4;
     grid-row: 1/3;
     font-size: medium;
 }
-#cherry-dice {
+#body_image {
     grid-column: 5/6;
     grid-row: 1/3;
     height: 300px;
