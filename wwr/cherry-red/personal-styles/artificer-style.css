@@ -57,12 +57,19 @@ body {
     color: #6e8cad;
     text-decoration: underline;
 }
-.body_paragraph {
+
+#body_paragraph1 {
     grid-column: 2/4;
     grid-row: 1/3;
     font-size: medium;
 }
-#body_image {
+#body_paragraph2 {
+    grid-column: 2/4;
+    grid-row: 3/5;
+    font-size: medium;
+}
+
+#body_image1 {
     grid-column: 5/6;
     grid-row: 1/3;
     height: 300px;
