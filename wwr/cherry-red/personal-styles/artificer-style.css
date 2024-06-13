@@ -35,7 +35,7 @@ body {
 .main_container {
     display: grid;
     grid-template-columns: 225px, 1fr, 1fr, 1fr, 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
 }
 #nav {
     font-family: 'Berkshire Swash', sans-serif;
@@ -45,7 +45,7 @@ body {
     min-height: 340px;
     min-width: 225px;
     grid-column: 1/2;
-    grid-row: 1/4;
+    grid-row: 1/8;
 }
 #nav a {
     text-align: center;
@@ -58,27 +58,57 @@ body {
     text-decoration: underline;
 }
 
-#body_paragraph1 {
-    grid-column: 2/4;
-    grid-row: 1/3;
-    font-size: medium;
-}
-#body_paragraph2 {
-    grid-column: 2/4;
-    grid-row: 3/5;
-    font-size: medium;
-}
-
 #body_image1 {
-    grid-column: 5/6;
-    grid-row: 1/3;
-    height: 300px;
-    width: auto;
+    display: block;
+    grid-column: 2/6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 33%;
     border: 10px solid #1f2232;
     transition: .5s;
     box-shadow: 5px 5px 10px #433d36;
-    margin: 50px;
 }
+
+#subclass1 {
+    grid-column: 2/5;
+    grid-row: 2/4;
+    font-size: medium;
+}
+#subclass2 {
+    grid-column: 2/5;
+    grid-row: 4/6;
+    font-size: medium;
+}
+#subclass3 {
+    grid-column: 2/5;
+    grid-row: 6/8;
+    font-size: medium;
+}
+.body_p h2 {
+    color:#a71a1a;
+    font-family: 'Berkshire Swash', sans-serif;
+    font-size: medium;
+}
+.spell_list {
+    border: 5px #1f2232;
+    border-collapse: collapse;
+}
+.spell_list td, .spell_list th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+.spell_list tr:nth-child(even){
+    background-color: #d67b7b;
+}
+.spell_list th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #a71a1a;
+    color: #1f2232;
+  }
 h1 {
     font-family: 'Berkshire Swash', sans-serif;
     color: #a71a1a;
