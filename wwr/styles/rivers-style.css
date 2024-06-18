@@ -30,7 +30,6 @@ nav {
     display: flex;
     align-content: flex-end;
     gap: 10px;
-    margin-left: 900px;
 }
 nav a {
     text-align: center;
