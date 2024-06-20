@@ -45,7 +45,7 @@ body {
     min-height: 340px;
     min-width: 225px;
     grid-column: 1/2;
-    grid-row: 1/8;
+    grid-row: 1/14;
 }
 #nav a {
     text-align: center;
@@ -102,7 +102,62 @@ h3 {
     margin: 50px;
     margin-bottom: 0px;
 }
-
+#ws-crossbow {
+    grid-column: 2/4;
+    grid-row: 5/6;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+#ws-monk {
+    grid-column: 2/4;
+    grid-row: 6/7;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+#ws-polearm {
+    grid-column: 2/4;
+    grid-row: 8/9;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+#ws-rogue {
+    grid-column: 2/4;
+    grid-row: 9/10;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+#ws-scythe {
+    grid-column: 2/4;
+    grid-row: 10/11;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+#ws-spear {
+    grid-column: 2/4;
+    grid-row: 11/12;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+#ws-sword {
+    grid-column: 2/4;
+    grid-row: 12/13;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+#ws-whip {
+    grid-column: 2/4;
+    grid-row: 13/14;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 0px;
+}
 
 footer {
     background-color: #a71a1a;
