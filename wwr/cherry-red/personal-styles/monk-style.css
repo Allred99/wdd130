@@ -85,7 +85,28 @@ body {
     margin: 50px;
     margin-bottom: 25px;
 }
-#subclass1 h2, #subclass2 h2, #subclass3 h2 {
+#subclass4 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 25px;
+}
+#subclass5 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 25px;
+}
+#subclass6 {
+    grid-column: 2/3;
+    grid-row: 7/8;
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 25px;
+}
+#subclass1 h2, #subclass2 h2, #subclass3 h2, #subclass4 h2, #subclass5 h2, #subclass6 h2 {
     color:#a71a1a;
     font-family: 'Berkshire Swash', sans-serif;
     font-size: medium;
