@@ -78,7 +78,7 @@ body {
     margin: 50px;
     margin-bottom: 25px;
 }
-#subclass2 {
+#subclass3 {
     grid-column: 2/3;
     grid-row: 4/5;
     font-size: medium;
@@ -101,25 +101,25 @@ h1 {
     font-size: large;
     font-weight: bold;
 }
-.m-table {
+.m-table, .mood-table {
     border: 5px #1f2232;
     border-collapse: collapse;
 }
-.m-table td, .m-table th {
+.m-table td, .m-table th, .mood-table td, .mood-table th {
     border: 1px solid black;
     padding: 8px;
 }
-.m-table tr:nth-child(even){
+.m-table tr:nth-child(even), .mood-table tr:nth-child(even) {
     background-color: #d67b7b;
 }
-.m-table th {
+.m-table th, .mood-table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #a71a1a;
     color: #1f2232;
   }
-.m-table td:nth-child(1), .m-table td:nth-child(2), .m-table td:nth-child(4), .m-table td:nth-child(5) {
+.m-table td:nth-child(1), .m-table td:nth-child(2), .m-table td:nth-child(4), .m-table td:nth-child(5), .mood-table td:nth-child(1) {
     text-align: center;
 }
 .subclass_table {

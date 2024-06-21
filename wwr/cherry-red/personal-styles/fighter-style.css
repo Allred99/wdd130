@@ -78,7 +78,7 @@ body {
     margin: 50px;
     margin-bottom: 25px;
 }
-#subclass2 {
+#subclass3 {
     grid-column: 2/3;
     grid-row: 4/5;
     font-size: medium;
