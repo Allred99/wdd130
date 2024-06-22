@@ -112,6 +112,9 @@ body {
     background-color: #a71a1a;
     color: #1f2232;
   }
+.spell_list td:nth-child(1) {
+    text-align: center;
+}
 h1 {
     font-family: 'Berkshire Swash', sans-serif;
     color: #a71a1a;
