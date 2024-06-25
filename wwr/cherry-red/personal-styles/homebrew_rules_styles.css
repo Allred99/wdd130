@@ -101,24 +101,24 @@ body {
     font-style: normal;
     font-style: italic;
 }
-.spell_list {
+.currency_table {
     border: 5px #1f2232;
     border-collapse: collapse;
 }
-.spell_list td, .spell_list th {
+.currency_table td, .currency_table th {
     border: 1px solid black;
     padding: 8px;
-  }
-.spell_list tr:nth-child(even){
+}
+.currency_table tr:nth-child(even){
     background-color: #d67b7b;
 }
-.spell_list th {
+.currency_table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #a71a1a;
     color: #1f2232;
-  }
+}
 h1 {
     font-family: 'Berkshire Swash', sans-serif;
     color: #a71a1a;
