@@ -64,17 +64,23 @@ body {
     margin-bottom: 25px;
     font-size: medium;
 }
-#subclass1 {
+#invocations {
     grid-column: 2/3;
     grid-row: 2/3;
     font-size: medium;
     margin: 50px;
     margin-bottom: 25px;
 }
-#subclass1 h2 {
+#invocations h2 {
     color:#a71a1a;
     font-family: 'Berkshire Swash', sans-serif;
     font-size: medium;
+}
+#invocations h3 {
+    color: #1f2232;
+    font-family: "Lora", Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-style: italic;
 }
 h1 {
     font-family: 'Berkshire Swash', sans-serif;
