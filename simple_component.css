@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #d55050;
+    color: #1f2232;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Berkshire Swash', sans-serif;
+    font-size: x-large;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #a71a1a;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #d1cbab;
+    display: none;
+    overflow: hidden;
+  }
+  .panel h1 {
+        font-family: 'Berkshire Swash', sans-serif;
+        color: #a71a1a;
+        font-size: large;
+    }

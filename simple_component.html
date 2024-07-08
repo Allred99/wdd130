@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Component: Accordion</title>
+    <link rel="stylesheet" href="simple_component.css">
+</head>
+<body>
+    <button class="accordion">Home Accordion</button>
+    <div class="panel">
+        <h1>Hello!</h1>
+        <p>Welcome to Cherry Red Games: a website containing homebrew content for D&D 5e. Feel free to look around and cherry-pick what you want to use in your own games. The majority of this content has been play-tested and is currently used in our own games to this day.</p>
+        <p>Feel free to contact us with any questions you have!</p>
+    </div>
+    <button class="accordion">Artificer Accordion</button>
+    <div class="panel">
+        <h1>Cogwork Mechanic</h1>
+        <p>These artificers channel their magic through the precise, regular movements of cogwork machines. For them, precision and regularity are crucial for everything- especially when it comes to magic. Many of their designs take on a steampunk aesthetic due to the prominence of gears and cogs.</p>
+        <h1>Glassblower</h1>
+        <p>These artificers work with glass. Many of these artificers focus on creating eyewear or other products.</p>
+        <h1>Pyrotechnician</h1>
+        <p>A pyrotechnician focuses on the chemical processes behind fireworks, gunpowder, and other processes.</p>
+    </div>
+    <button class="accordion">Cleric Accordion</button>
+    <div class="panel">
+        <h1>Oracle Domain</h1>
+        <p>Oracles do not choose their path, it is chosen for them- usually from a source unknown to the oracle. While great boons are granted, this often comes at the cost of the oracle being bombarded with information.</p>
+        <h1>Soul Shepherd Domain</h1>
+        <p>Not all souls pass on properly. Many spirits linger in the form of ghosts, chained to the mortal realm by unfulfilled wishes. Soul shepherds are responsible for guiding these souls into the afterlife- even channeling these spirits to aid them. Many of these clerics worship gods of death.</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class, to highlight the button that controls the panel */
+            this.classList.toggle("active");
+        /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        }
+        else {
+            panel.style.display = "block";
+        }
+            });
+        }
+    </script>
+</body>
+</html>
